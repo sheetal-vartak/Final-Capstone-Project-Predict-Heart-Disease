@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable **early detection of heart disease risk**, empowering healthcare providers to intervene proactively and improve patient outcomes.
+This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable **early detection of heart disease risk**, empowering healthcare providers to intervene proactively and improve patient outcomes. This project evaluates various modeling algorithms to determine the best way to predict heart didease.
 
 ---
 
@@ -76,18 +76,12 @@ Strong correlations were identified between heart disease and:
 **What We Discovered:**  
 Men in this study showed higher rates of heart disease compared to women.
 
-**What This Means for You:**  
-> ⚠️ **Action Item:** Men over 50 should prioritize annual cardiac screenings and discuss heart health with their doctor, even without symptoms.
-
 ---
 
 ### Finding 2: Silent Heart Disease is Common
 
 **What We Discovered:**  
 Patients with "asymptomatic" chest pain (no obvious symptoms) had the **highest rates of heart disease**. This is concerning because these patients may not realize they are at risk.
-
-**What This Means for You:**  
-> ⚠️ **Action Item:** Don't wait for chest pain to see a doctor. Regular check-ups can detect heart disease before symptoms appear. If you have risk factors (family history, high blood pressure, diabetes), request a cardiac evaluation.
 
 ---
 
@@ -100,9 +94,6 @@ Two exercise-related factors were among the strongest predictors:
 
 Patients who experienced chest discomfort during exercise were significantly more likely to have heart disease.
 
-**What This Means for You:**  
-> ⚠️ **Action Item:** If you experience chest pain, shortness of breath, or unusual fatigue during exercise, stop immediately and consult a healthcare provider. Consider asking about a stress test to evaluate your heart's response to physical activity.
-
 ---
 
 ### Finding 4: Lower Maximum Heart Rate Signals Risk
@@ -110,18 +101,12 @@ Patients who experienced chest discomfort during exercise were significantly mor
 **What We Discovered:**  
 Patients with heart disease achieved **lower maximum heart rates** during exercise testing compared to healthy individuals.
 
-**What This Means for You:**  
-> ⚠️ **Action Item:** If you notice you can't exercise as intensely as before, or your heart rate doesn't increase much during activity, discuss this with your doctor.
-
 ---
 
 ### Finding 5: Fasting Blood Sugar Matters
 
 **What We Discovered:**  
 Patients with elevated fasting blood sugar (>120 mg/dL, indicating diabetes or pre-diabetes) showed higher rates of heart disease.
-
-**What This Means for You:**  
-> ⚠️ **Action Item:** If you have diabetes or pre-diabetes, work closely with your healthcare team to manage blood sugar levels. This directly reduces your heart disease risk.
 
 ---
 
@@ -223,15 +208,6 @@ The model was validated using:
    - Update as new cardiovascular research emerges
 
 ---
-
-## Technical Notes
-
-### Tools & Technologies Used
-- **Python** for data analysis and modeling
-- **Pandas & NumPy** for data manipulation
-- **Scikit-learn** for machine learning models
-- **TensorFlow/Keras** for neural network development
-- **Matplotlib & Seaborn** for visualization
 
 ### Model Details
 - Best performing model: **Random Forest Classifier**
