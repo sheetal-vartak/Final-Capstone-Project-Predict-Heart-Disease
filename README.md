@@ -1,8 +1,10 @@
 # Cardiovascular Disease Prediction Project
 
+**Author : Sheetal Vartak**
+
 ## Executive Summary
 
-This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable **early detection of heart disease risk**, empowering healthcare providers to intervene proactively and improve patient outcomes. This project evaluates various modeling algorithms to determine the best way to predict heart didease.
+This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable early detection of heart disease risk, empowering healthcare providers to intervene proactively and improve patient outcomes. This project evaluates various modeling algorithms to determine the best way to predict heart didease.
 
 ---
 
@@ -10,7 +12,7 @@ This project develops a machine learning model to predict cardiovascular (heart)
 
 ### The Problem
 
-Heart disease is the **leading cause of death worldwide**, accounting for approximately 17.9 million deaths annually. Early identification of at-risk individuals can significantly reduce mortality through timely interventions, lifestyle changes, and preventive treatments.
+Heart disease is the leading cause of death worldwide, accounting for approximately 17.9 million deaths annually. Early identification of at-risk individuals can significantly reduce mortality through timely interventions, lifestyle changes, and preventive treatments.
 
 ### The Opportunity
 
@@ -73,21 +75,18 @@ Strong correlations were identified between heart disease and:
 
 ### Finding 1: Gender Differences in Heart Disease
 
-**What We Discovered:**  
 Men in this study showed higher rates of heart disease compared to women.
 
 ---
 
 ### Finding 2: Silent Heart Disease is Common
-
-**What We Discovered:**  
+ 
 Patients with "asymptomatic" chest pain (no obvious symptoms) had the **highest rates of heart disease**. This is concerning because these patients may not realize they are at risk.
 
 ---
 
 ### Finding 3: Exercise Response Reveals Risk
 
-**What We Discovered:**  
 Two exercise-related factors were among the strongest predictors:
 - **Exercise-induced angina** (chest discomfort during physical activity)
 - **ST Slope changes** (abnormal heart electrical patterns during exercise)
@@ -97,15 +96,13 @@ Patients who experienced chest discomfort during exercise were significantly mor
 ---
 
 ### Finding 4: Lower Maximum Heart Rate Signals Risk
-
-**What We Discovered:**  
+ 
 Patients with heart disease achieved **lower maximum heart rates** during exercise testing compared to healthy individuals.
 
 ---
 
 ### Finding 5: Fasting Blood Sugar Matters
 
-**What We Discovered:**  
 Patients with elevated fasting blood sugar (>120 mg/dL, indicating diabetes or pre-diabetes) showed higher rates of heart disease.
 
 ---
