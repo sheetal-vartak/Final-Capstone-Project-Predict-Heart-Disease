@@ -1,7 +1,9 @@
 # Cardiovascular Disease Prediction Project
 
 **Author : Sheetal Vartak**
-** Jupyter Notebook : 
+
+**Jupyter Notebook : [here](https://github.com/sheetal-vartak/Final-Capstone-Project-Predict-Heart-Disease/blob/2bbcded9b5ae0500670696fe263dc6aa2e30ea16/cardiovascular_disease_prediction_capstone_final.ipynb)**
+
 ## Executive Summary
 
 This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable early detection of heart disease risk, empowering healthcare providers to intervene proactively and improve patient outcomes. This project evaluates various modeling algorithms to determine the best way to predict heart didease.
@@ -31,6 +33,8 @@ Build a reliable predictive model that can screen patients for heart disease ris
 ## 2. Data Overview & Statistical Analysis
 
 ### Dataset Summary
+
+Data Source - https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data
 
 | Metric | Value |
 |--------|-------|
