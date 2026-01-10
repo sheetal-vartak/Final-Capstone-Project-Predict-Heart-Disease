@@ -1,7 +1,7 @@
 # Cardiovascular Disease Prediction Project
 
 **Author : Sheetal Vartak**
-
+** Jupyter Notebook : 
 ## Executive Summary
 
 This project develops a machine learning model to predict cardiovascular (heart) disease using patient health data. The goal is to enable early detection of heart disease risk, empowering healthcare providers to intervene proactively and improve patient outcomes. This project evaluates various modeling algorithms to determine the best way to predict heart didease.
