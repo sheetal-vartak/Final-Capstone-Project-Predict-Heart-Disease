@@ -137,6 +137,10 @@ The model was validated using:
 - **5-fold cross-validation** confirming consistent results across different data subsets
 - Cross-validation accuracy: **84.5%** (stable and reliable)
 
+### Model Comparison
+
+<img width="980" height="721" alt="image" src="https://github.com/user-attachments/assets/93523e21-dd87-41c0-b510-6b3e946c86ef" />
+
 ---
 
 ## 5. Recommendations
@@ -151,7 +155,7 @@ The model was validated using:
    - Pay special attention to patients with:
      - Asymptomatic presentation (silent disease)
      - Exercise-induced symptoms
-     - Abnormal ECG patterns (ST slope changes)
+     - Abnormal ECG patterns 
      - Elevated fasting blood sugar
 
 3. **Integrate Exercise Testing**
@@ -169,11 +173,6 @@ The model was validated using:
    - Reduced exercise capacity
    - Any chest discomfort, even mild
 
-3. **Prioritize Prevention**
-   - Regular physical activity (after medical clearance)
-   - Heart-healthy diet
-   - Stress management
-   - Maintain healthy weight
 
 ---
 
@@ -181,32 +180,23 @@ The model was validated using:
 
 ### Immediate Actions
 
-1. **Clinical Pilot Program**
-   - Deploy the model in a controlled clinical setting
-   - Gather feedback from healthcare providers
-   - Validate predictions against actual patient outcomes
-
-2. **Expand Data Collection**
-   - Include lifestyle factors (smoking, diet, physical activity)
-   - Add family history information
-   - Incorporate medication data
+1. Gather feedback from healthcare providers
+2. Validate predictions against actual patient outcomes
+3. Include lifestyle factors (smoking, diet, physical activity)
 
 ### Future Enhancements
 
 1. **Model Improvements**
    - Explore ensemble methods combining multiple models
    - Investigate deep learning for pattern recognition
-   - Add temporal data for disease progression tracking
 
 2. **Technology Integration**
    - Develop a user-friendly web application for clinical use
-   - Create patient-facing risk assessment tool
-   - Enable integration with electronic health records (EHR)
+   - Enable integration with health records
 
 3. **Continuous Improvement**
    - Monitor model performance over time
    - Retrain with new data periodically
-   - Update as new cardiovascular research emerges
 
 ---
 
@@ -231,15 +221,12 @@ The model was validated using:
 
 This cardiovascular disease prediction model demonstrates **strong performance (92.3% ROC-AUC)** in identifying patients at risk for heart disease. The analysis reveals that **exercise-related symptoms and ECG patterns** are the most powerful predictors, followed by age, blood sugar, and gender.
 
-By implementing this screening tool, healthcare providers can:
+With this analysis, healthcare providers can:
 - **Detect heart disease earlier** in at-risk patients
 - **Allocate resources more effectively** to those who need them most
 - **Save lives** through timely intervention and preventive care
 
-The model is ready for clinical validation and pilot deployment.
-
 ---
 
-*Report generated from cardiovascular disease prediction analysis*  
-*Data source: Heart disease dataset (918 patients, 12 features)*
+
 
