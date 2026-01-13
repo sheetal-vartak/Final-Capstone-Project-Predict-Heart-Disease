@@ -121,7 +121,7 @@ We tested multiple machine learning approaches to find the most accurate predict
 |-------|----------|-----------------------------------|------------------------|
 | **Random Forest** ⭐ | **87.5%** | 89.2% | **92.3%** |
 | Support Vector Machine | 85.9% | 91.2% | 92.0% |
-| Neural Network | 85.3% | 85.3% | 90.8% |
+| Neural Network | 84.2% | 88.2% | 91.2% |
 | Logistic Regression | 84.8% | 88.2% | 89.9% |
 
 ### What These Numbers Mean
